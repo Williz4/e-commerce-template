@@ -438,4 +438,46 @@ input[type='radio']:checked + label:before {
 .add-prod a:hover {
 	text-decoration: none;
 }
-/*Prodcut Page*/
+/*Product Page*/
+
+/*About Page*/
+.hero {
+	height: 400px;
+	background: #f7f6f2;
+	position: relative;	
+}
+
+#hero-title {
+	position: absolute;
+	font-family: 'Playfair Display';
+	top: 55%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.content {
+	margin: 50px auto;
+	width: 65% !important;
+}
+
+@media(max-width: 900px) {
+	.content {
+		width: 90% !important;
+	}
+}
+
+.content p {
+	font-family: 'Larsseit';
+	font-weight: 300;
+	color: rgba(0, 0, 0, .6);
+}
+
+#blockquote {
+	font-family: 'Playfair Display';
+	font-style: italic;
+	font-size: 24px;
+	padding: 30px 20px;
+	margin: 20px 0;
+	border: 1px solid rgba(0, 0, 0, .1);
+}
+/*About Page*/
